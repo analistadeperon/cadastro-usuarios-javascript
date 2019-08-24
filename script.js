@@ -68,6 +68,7 @@ function interacaoTelaWindow(){
     function blockView(){
         spacer.style.display = "block"
         create.style.display = "block"
+        update.style.display = "none"
         view.style.display = "none"
     }
 
@@ -84,7 +85,7 @@ function interacaoTelaWindow(){
     visualizar.addEventListener('click', () => {
         spacer.style.display = "none"
         create.style.display = "none"
-
+        update.style.display = "none"
         view.style.display = "block"
     })
 
